@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: shipment-api
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/shipment
+      username: root
+      password:
+  jpa:
+    database: MYSQL
+    hibernate.ddl-auto: validate
+    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    show-sql: true
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8888
