@@ -1,2 +1,7 @@
+spring:
+  application:
+    name: advertisement-api
+    profiles: local
+
 server:
-  port: 7777
+  port: 0
